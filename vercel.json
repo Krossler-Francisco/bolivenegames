@@ -1,0 +1,30 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "vite.config.js",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "dist"
+        }
+      },
+      {
+        "src": "api/**/*.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "MONGO_URI": "mongodb+srv://sinag:rlJcs9uBPsgOiYNm@bolivene.6l6mo.mongodb.net/?retryWrites=true&w=majority&appName=Bolivene"
+    },
+    "routes": [
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/dist/$1"
+      }
+    ]
+  }
+  

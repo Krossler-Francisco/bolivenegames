@@ -1,0 +1,20 @@
+.title-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.title-container h1{
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-bottom: .32rem;
+}
+
+.title-container span{
+    max-width: 40px;
+    height: 3px;
+    border: none;
+    background-color: #f2003a;
+}

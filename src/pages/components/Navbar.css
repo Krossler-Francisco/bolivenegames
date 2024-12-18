@@ -1,0 +1,65 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+
+.navbar-ul-container {
+    display: flex;
+    gap: 4rem;
+}
+
+.navbar-anchor {
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.navbar-anchor:hover {
+    color: #f2003a;
+}
+
+.navbar-btn {
+    display: inline-block;
+    position: relative;
+    padding: 1rem 2rem;
+    background-color: #f2003a;
+    color: white;
+    font-weight: bold;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.navbar-btn span {
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0%;
+    height: 0%;
+    background-color: #220874;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    z-index: 1;
+    transition: width 0.6s ease, height 0.6s ease;
+}
+
+.navbar-btn::before{
+    width: 100%;
+    height: 0%;
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+
+  .navbar-btn:hover::before{
+    height: 380%;
+}
+
+.navbar-brn-span{
+    background: none;
+}

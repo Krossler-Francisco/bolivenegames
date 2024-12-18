@@ -1,0 +1,71 @@
+
+.header-link-anchor{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.header-link-anchor img{
+    width: 800px;
+    height: 440px;
+    object-fit: cover;
+}
+
+.header-game-aside{
+    background-color: #220874;
+    width: 100%;
+    padding: 2.6rem 2.6rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 360px;
+    max-width: 500px;
+}
+
+.header-aside-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.header-aside-flex{
+    display: flex;
+    gap: 2rem;
+}
+
+.header-game-aside h1{
+    color: white;
+    font-size: 2.4rem;
+    height: 55px;
+    transition: color .3s ease;
+}
+
+.header-game-aside h1:hover{
+    color: #f2003a;
+    cursor: pointer;
+}
+
+.header-game-aside h2, .header-game-aside h3{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    height: 60px;
+    font-weight: 400;
+
+}
+
+.header-game-aside h3{
+    margin-top: 0;
+    font-size: 1rem;
+    height: auto;
+}
+
+.aside-props{
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+}

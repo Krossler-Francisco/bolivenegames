@@ -1,0 +1,47 @@
+[
+    {
+        "id": "1",
+        "link": "#",
+        "img": "./img/link1.jpg",
+        "name": "Fall Guys Crown Chaos",
+        "description": "Compete in crown chaos for a chance to win up to 5 crowns each",
+        "group": "32",
+        "price": "500"
+    },
+    {
+        "id": "2",
+        "link": "#",
+        "img": "https://wallpapercave.com/wp/wp2249188.jpg",
+        "name": "Skelletom",
+        "description": "No description",
+        "group": "?",
+        "price": "?"
+    },
+    {
+        "id": "3",
+        "link": "#",
+        "img": "https://wallpapercave.com/wp/wp2249188.jpg",
+        "name": "Skelletom",
+        "description": "No description",
+        "group": "?",
+        "price": "?"
+    },
+    {
+        "id": "4",
+        "link": "#",
+        "img": "https://wallpapercave.com/wp/wp2249188.jpg",
+        "name": "Skelletom",
+        "description": "No description",
+        "group": "?",
+        "price": "?"
+    },
+    {
+        "id": "5",
+        "link": "#",
+        "img": "https://wallpapercave.com/wp/wp2249188.jpg",
+        "name": "Skelletom",
+        "description": "No description",
+        "group": "?",
+        "price": "?"
+    }
+]
